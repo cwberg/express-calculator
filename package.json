@@ -6,10 +6,9 @@
   "type": "module",
   "scripts": {
 "start": "node app.js",
-    "test": "./node_modules/.bin/jest"
-    "unit-test": "./node_modules/.bin/jest src/__tests__/unit"
-"integration-test": "./node_modules/.bin/jest src/__tests__/integration",
-"e2e-test": "wait-on http://localhost:3000 && ./node_modules/.bin/jest src/__tests__/e2e"
+    "test": "./node_modules/.bin/jest",
+    "unit-test": "./node_modules/.bin/jest src/__tests__/unit",
+"integration-test": "./node_modules/.bin/jest src/__tests__/integration"
     
   },
   "author": "Patrik Nygren",
@@ -22,7 +21,6 @@
     "babel-jest": "^26.6.3",
     "jest": "^26.6.3",
     "regenerator-runtime": "^0.13.7",
-    "selenium-webdriver": "*",
     "supertest": "^6.1.3",
         "wait-on": "^5.3.0"
     
